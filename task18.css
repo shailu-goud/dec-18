@@ -4,93 +4,73 @@
     }
 }
 
-/* Answer-2 */
 @media screen and (min-width : 600px) and (max-width : 1200px) {
     p {
         font-size: 18px;
     }
 }
 
-/* Answer-3 */
 @media screen and (min-width : 480px) {
-    .main {
+    div {
         display: flex;
-        justify-content: space-between;
     }
 }
 
-/* Answer-4 */
 @media screen and (min-width : 500px) and (max-width : 800px) {
     h1 {
         color: green;
     }
 }
 
-/* Answer-5 */
-@media screen and (min-width : 400px) {
-    .img1 {
+@media screen and (max-width : 400px) {
+    img {
         display: none;
     }
 }
 
-/* Answer-6 */
 @media screen and (min-width : 1024px) {
-    .main {
+    .container {
         border: 2px solid;
         padding: 20px;
     }
 }
 
-/* Answer-7 */
 @media screen and (min-width : 600px) and (max-width : 1200px) {
-    .main {
-        background-color: lightgray;
+    .container {
+        background-color: gray;
     }
 }
 
-/* Answer-8 */
 @media screen and (max-width : 480px) {
     p {
         font-size: 16px;
     }
 }
 
-/* Answer-10 */
 @media screen and (max-width : 600px) {
-    .img2 {
+    img2 {
         width: 100%;
-
     }
 }
 
-/* Answer-11 */
-@media screen and (min-width : 700px) and (max-width : 1200px) {
-    a {
+media screen and (min-width : 700px) and (max-width : 1200px) {
+    .a {
         color: blue;
-        text-decoration: none;
+        text-deco ration: none
     }
 }
 
-/* Answer-12 */
-@media screen and (min-width : 500px) and (max-width : 800px) {
-    h2 {
+media screen and (min-width : 500px) and (max-width : 800px) {
+    .h2 {
         font-size: 24px;
     }
 }
 
-/* Answer-13 */
 .border {
     height: 100px;
     width: 100px;
 }
 
-@media screen and (min-width : 1024px) {
-    .border {
-        border: 2px solid black;
-    }
-}
-
-/* Answer-14 */
 @media screen and (min-width : 800px) and (max-width : 1200px) {
     .sidebar {
         background-color: lightcoral;
@@ -98,7 +78,11 @@
     }
 }
 
-/* Answer-15 */
+.column {
+    display: flex;
+    gap: 5px
+}
+
 .column {
     display: flex;
     gap: 5px;
@@ -116,3 +100,5 @@
     .column {
         flex-direction: column;
     }
+
+}
